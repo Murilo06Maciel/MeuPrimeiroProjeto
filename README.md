@@ -29,13 +29,7 @@ O Jogo da Velha faz parte dos jogos conhecidos como “família do moinho” ou 
 - Informe um __else__ se a escolha do usuário não existir, coloque para escrever opção inválida: "Console.WriteLine("Escolha inválida! Tente novamente.");"
 
 # CODIGO FINAL:
-{
-using System;
 
-class Program
-{
-    static void Main()
-    {
 		bool continuar;
         Random random = new Random();
         string[] opcoes = { "pedra", "papel", "tesoura" };
@@ -70,6 +64,5 @@ class Program
 			Console.WriteLine("\nDeseja continuar? (1 = sim | 2= não)");
 			continuar = Console.ReadLine() == "1";
 		}while(continuar);
-    }
-}
-}
+    
+
