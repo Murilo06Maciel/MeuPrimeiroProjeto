@@ -1,6 +1,6 @@
 # O QUE É?
 
-O Jogo da Velha faz parte dos jogos conhecidos como “família do moinho” ou “trilha”, em que o objetivo é posicionar as peças de modo que formem uma linha reta.
+Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenpô, é um jogo de mãos recreativo e simples para duas ou mais pessoas, que não requer equipamentos nem habilidade. O jogo é frequentemente empregado como método de seleção, assim como lançar moedas, jogar dados, entre outros.
 
 # COMO JOGAR:
 
