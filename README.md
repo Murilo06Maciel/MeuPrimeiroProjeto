@@ -2,6 +2,8 @@
 
 Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenpô, é um jogo de mãos recreativo e simples para duas ou mais pessoas, que não requer equipamentos nem habilidade. O jogo é frequentemente empregado como método de seleção, assim como lançar moedas, jogar dados, entre outros.
 
+<img src="C:\Users\Alunos\OneDrive\Documents\murilo\MeuPrimeiroProjeto\imagens\jogo representação">
+
 # COMO JOGAR:
 
 - Escolha entre **pedra**, **papel** ou **tesoura**.
@@ -12,6 +14,8 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 - Tesoura perde para a pedra;
 
 - Se você escolher algo que vence a escolha da máquina, você vence. Caso contrário, você perde.
+
+<img src="C:\Users\Alunos\OneDrive\Documents\murilo\MeuPrimeiroProjeto\imagens\jogo final">
 
 # COMO CONSTRUIR O JOGO?
 
@@ -27,6 +31,8 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 - Caso não for crie um __else if__ para verificar se a escolha do usuário vence a escolha da máquina no jogo:"else if ((Usuario == "pedra" && pc == "tesoura") || (Usuario == "papel" && pc == "pedra") || (Usuario == "tesoura" && pc == "papel"))" e informar: **Vitória** "Console.WriteLine("Você ganhou!");"
 - Caso negativo, use o __else__, informar: **Derrota** "Console.WriteLine("Você perdeu!");"
 - Informe um __else__ se a escolha do usuário não existir, coloque para escrever opção inválida: "Console.WriteLine("Escolha inválida! Tente novamente.");"
+
+<img src="C:\Users\Alunos\OneDrive\Documents\murilo\MeuPrimeiroProjeto\imagens\código">
 
 # CODIGO FINAL:
 
