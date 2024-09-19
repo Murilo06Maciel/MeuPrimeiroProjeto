@@ -22,7 +22,7 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 
 ### JOGO CONSTRUIDO NO C#
 
-- Precisamos entender que para criar um código, temos que informar as variáveis. Neste exercício, temos que colocar uma classe **RAMDON**, responsável por gerar números aleatórios. Temos que ter também um Array do tipo string para colocar na mesma variável os nomes "pedra", "papel" e "tesoura". Após isso podemos usar a condição __if__, e __else__ para configurar de acordo com as regras do jogo.
+- Precisamos entender que para criar um código, temos que informar as variáveis. Neste exercício, temos que colocar uma classe **RAMDON**, responsável por gerar números aleatórios. Temos que ter também um Array do tipo string para colocar na mesma variável os nomes das opções: "pedra", "papel" e "tesoura". Após isso podemos usar a condição __if__, e __else__ para configurar de acordo com as regras do jogo. Use "if (Array.Exists(opcoes, op => op == Usuario))" para verificar se existe algum elemento no array opicoes ("pedra", "papel" e "tesoura") que seja igual ao valor informado pelo usuário, a parte "opcoes, op => op == Usuario" verifica se algum elemento (op) no array opcoes é igual a Usuario (valor informado pelo usuário). Não podemos esquecer de pedir para o computador imprimir para o usuário informar o valor, além de escrever que se o usuário vencer, aparecer: **vitória**, mas se o usuário perder aparecer: **Derrota**. E por último se por um acaso, a escolha do usuário não existir, coloque para escrever opção inválida. 
 
 ### PASSO A PASSO
 
