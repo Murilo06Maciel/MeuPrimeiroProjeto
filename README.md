@@ -36,5 +36,7 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 - Caso não for crie um __else if__ para verificar se a escolha do usuário vence a escolha da máquina no jogo:"else if ((Usuario == "pedra" && pc == "tesoura") || (Usuario == "papel" && pc == "pedra") || (Usuario == "tesoura" && pc == "papel"))" e informar: **Vitória** "Console.WriteLine("Você ganhou!");"
 - Caso negativo, use o __else__, informar: **Derrota** "Console.WriteLine("Você perdeu!");"
 - Informe um __else__ se a escolha do usuário não existir, coloque para escrever opção inválida: "Console.WriteLine("Escolha inválida! Tente novamente.");"
+- Caso queira, use estrutura de repetição.
+- Opcional: "Console.Clear();" para limpar
 
 <img src="/imagens/código.png"> 

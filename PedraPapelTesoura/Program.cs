@@ -3,6 +3,7 @@ Random random = new Random();
 string[] opcoes = { "pedra", "papel", "tesoura" };
 do
 {
+Console.Clear();
 Console.WriteLine("Escolha: Pedra, Papel ou Tesoura?");
 string Usuario = Console.ReadLine().ToLower();
 if (Array.Exists(opcoes, op => op == Usuario))
