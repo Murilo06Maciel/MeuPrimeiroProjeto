@@ -22,6 +22,10 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 
 ### JOGO CONSTRUIDO NO C#
 
+- Precisamos entender que para criar um código, temos que informar as variáveis. Neste exercício, temos que colocar uma classe **RAMDON**, responsável por gerar números aleatórios. Temos que ter também um Array do tipo string para colocar na mesma variável os nomes "pedra", "papel" e "tesoura". Após isso podemos usar a condição __if__, e __else__ para configurar de acordo com as regras do jogo.
+
+### PASSO A PASSO
+
 - Indique a variavel "continuar" como bool: "bool continuar;"
 - Informe: "Random random = new Random();"
 - Indique a Array opções do tipo string: "string[] opcoes = { "pedra", "papel", "tesoura" };"
@@ -33,43 +37,4 @@ Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenp�
 - Caso negativo, use o __else__, informar: **Derrota** "Console.WriteLine("Você perdeu!");"
 - Informe um __else__ se a escolha do usuário não existir, coloque para escrever opção inválida: "Console.WriteLine("Escolha inválida! Tente novamente.");"
 
-<img src="/imagens/código.png">
-
-# CODIGO FINAL:
-
-		bool continuar;
-        Random random = new Random();
-        string[] opcoes = { "pedra", "papel", "tesoura" };
-        do
-		{
-        Console.WriteLine("Escolha: Pedra, Papel ou Tesoura?");
-        string Usuario = Console.ReadLine().ToLower();
-        
-        if (Array.Exists(opcoes, op => op == Usuario))
-        {
-            string pc = opcoes[random.Next(opcoes.Length)];
-            Console.WriteLine($"O computador escolheu: {pc}");
-
-            if (Usuario == pc)
-			{
-                Console.WriteLine("Empate!");
-			}
-            else if ((Usuario == "pedra" && pc == "tesoura") || (Usuario == "papel" && pc == "pedra") || (Usuario == "tesoura" && pc == "papel"))
-			{
-                Console.WriteLine("Você ganhou!");
-			}
-            else
-			{
-                Console.WriteLine("Você perdeu!");
-			}
-			
-        }
-        else
-        {
-            Console.WriteLine("Escolha inválida! Tente novamente.");
-        }
-			Console.WriteLine("\nDeseja continuar? (1 = sim | 2= não)");
-			continuar = Console.ReadLine() == "1";
-		}while(continuar);
-    
-
+<img src="/imagens/código.png"> 
